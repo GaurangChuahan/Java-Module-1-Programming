@@ -16,17 +16,17 @@ public class percentage {
         int total = JAVA + C + HTML;
         System.out.println("Total is " + total);
 
-        int grade = (total / 3);
-        System.out.println("Grade is " + grade);
+        int pr = (total / 3);
+        System.out.println("Percentage is " + pr);
 
-        if (grade > 75) {
-            System.out.println("Dist class " + grade);
-        } else if (grade < 75 && grade >= 60) {
-            System.out.println("First class " + grade);
-        } else if (grade < 60 && grade >= 35) {
-            System.out.println("Second  class " + grade);
+        if (pr > 75) {
+            System.out.println("Distinct class " + pr);
+        } else if (pr < 75 && pr >= 60) {
+            System.out.println("First class " + pr);
+        } else if (pr < 60 && pr >= 35) {
+            System.out.println("Second  class " + pr);
         } else {
-            System.out.println("Fail " + grade);
+            System.out.println("Fail " + pr);
         }
 
     }

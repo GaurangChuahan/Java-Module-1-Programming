@@ -1,13 +1,13 @@
-class demo{
-    int b,a;
-    void add(int a, int b)
-    {
-        // this.a=a;
-        this.b=b;
-        System.out.println(a);
+class demo {
+    int a, b;
+
+    void set(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
-    void print()
-    {
+
+    void get() {
+        System.out.println(a);
         System.out.println(b);
     }
 }
@@ -15,7 +15,7 @@ class demo{
 public class this_keyword {
     public static void main(String[] args) {
         demo d = new demo();
-        d.add(5, 6);
-        d.print();
+        d.set(5, 6);
+        d.get();
     }
 }
